@@ -19,6 +19,6 @@ let package = Package(
             name: "TensorKitPackage"),
         .testTarget(
             name: "TensorKitPackageTests",
-            dependencies: ["TensorKitPackage"]),
+            dependencies: ["TensorKitPackage", "TensorKit"]),
     ]
 )
