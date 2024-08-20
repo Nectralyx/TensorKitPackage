@@ -1,0 +1,6 @@
+framework module TensorKitFramework {
+  umbrella header "TensorKitFramework.h"
+  export *
+
+  module * { export * }
+}
